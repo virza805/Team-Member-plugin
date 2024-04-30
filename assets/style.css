@@ -1,0 +1,91 @@
+.team_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.team_wrap a.member {
+    /* width: 24%; */
+    width: 100%;
+    margin: 0.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #b1b1b1;
+    padding: 24px 0;
+}
+.team_wrap a.member .profile {
+    width: 226px;
+    height: 226px;
+    border-radius: 100px;
+}
+.team_wrap a.member .profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* .team_wrap a.member {
+    width: 100%;
+} */
+.pagination {
+    margin: 70px 0;
+}
+.pagination .page-numbers {
+    padding: 7px 14px;
+    background: #f9f9f9;
+    margin: 5px;
+    box-shadow: 3px 3px #000;
+    border: 1px solid #000;
+}
+
+.pagination .page-numbers.current {
+    background: black;
+    color: #ffff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.pagination .page-numbers:hover {
+    background: green;
+    color: #efe386;
+    transition: 0.3s;
+}
+p.see-all-btn a {
+    text-align: center;
+    padding: 7px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.see-all-btn {
+    text-align: center;
+    margin: 70px 0;
+}
+
+p.see-all-btn a:hover {
+    background: green;
+}
+/*============= For responsive CSS3 Start Now >--->==============*/
+/* Medium Layout 1280px */
+@media only screen and (min-width:992px){ 
+    .team_wrap a.member {
+        width: 24%;
+    }
+} 
+/* Tablet Layout: 768px */
+@media only screen and (min-width:768px) and (max-width:991px){ }
+/* Mobile Layout 320px */
+@media only screen and (max-width:767px){  }
+/* Wide Mobile Layout 480px */
+@media only screen and (min-width:480px) and (max-width:766px){} 
+/*================= <---End---> responsive CSS3 ===================*/
